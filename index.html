@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    >
+
+    <meta
+        name="description"
+        content="A responsive article card built with modern HTML, CSS, and JavaScript."
+    >
+
+    <title>Modern Article Card</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <h1 class="site-title">Featured Article</h1>
+
+        <button
+            class="theme-toggle"
+            type="button"
+            aria-label="Switch to dark mode"
+            aria-pressed="false"
+        >
+            <span class="theme-toggle__icon" aria-hidden="true">🌙</span>
+            <span class="theme-toggle__text">Dark mode</span>
+        </button>
+    </header>
+
+    <main class="page-content">
+        <article class="article-card">
+            <img
+                class="article-card__image"
+                src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1200&q=80"
+                alt="An open laptop, notebook, and coffee arranged on a desk"
+            >
+
+            <div class="article-card__content">
+                <span class="article-card__badge">
+                    Web Design
+                </span>
+
+                <h2 class="article-card__title">
+                    Building More Accessible and Responsive Websites
+                </h2>
+
+                <p class="article-card__description">
+                    Learn how modern CSS tools can help you create flexible,
+                    readable, and accessible layouts across different screen sizes.
+                </p>
+
+                <a
+                    class="article-card__button"
+                    href="https://developer.mozilla.org/en-US/docs/Learn_web_development"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Read Article
+                </a>
+            </div>
+        </article>
+    </main>
+</body>
+</html>
